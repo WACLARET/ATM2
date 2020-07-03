@@ -12,12 +12,14 @@ docker-compose run --rm npm run dev
 docker-compose run --rm artisan migrate
 Containers created and their ports (if used) are as follows:
 
-nginx - :8507
-mysql - :3308
-php - :9001
-npm
-composer
-artisan
+<ul>
+<li>nginx - :8507</li>
+<li>mysql - :3308</li>
+<li>php - :9001</li>
+<li>npm</li>
+<li>composer</li>
+<li>artisan</li>
+  </ul>
 Persistent MySQL Storage
 By default, whenever you bring down the docker-compose network, your MySQL data will be removed after the containers are destroyed. If you would like to have persistent data that remains after bringing containers down and back up, do the following:
 
