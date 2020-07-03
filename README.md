@@ -12,9 +12,9 @@ docker-compose run --rm npm run dev
 docker-compose run --rm artisan migrate
 Containers created and their ports (if used) are as follows:
 
-nginx - :8080
-mysql - :3306
-php - :9000
+nginx - :8507
+mysql - :3308
+php - :9001
 npm
 composer
 artisan
